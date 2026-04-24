@@ -3,7 +3,7 @@ function obtenerConfiguracion(host) {
   if (host.includes('amazon.es')) {
     return {
       lang: 'es',
-      tag: 'abellanlabs-21', // Tu ID de España
+      tag: 'abellan27-21', // Tu ID de España
       camelUrl: 'https://es.camelcamelcamel.com/product/',
       texts: {
         title: 'ABELLANLABS™ VERIFICADOR',
