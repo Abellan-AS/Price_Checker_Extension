@@ -6,10 +6,10 @@ function obtenerConfiguracion(host) {
       tag: 'abellan27-21', // Tu ID de España
       camelUrl: 'https://es.camelcamelcamel.com/product/',
       texts: {
-        title: 'ABELLANLABS™ VERIFICADOR',
+        title: 'LiaCheck™ VERIFICADOR DE HISTORIAL DE PRECIOS',
         question: '¿Es este su precio más bajo?',
         button: 'Verificar Historial Real',
-        disclaimer: 'AbellanLabs™ es un Asociado Oficial de Amazon.'
+        disclaimer: 'AbellanLabs™ es un Afiliado Oficial de Amazon.'
       }
     };
   } 
@@ -20,10 +20,10 @@ function obtenerConfiguracion(host) {
     tag: 'abellan27-20', // Tu ID de USA
     camelUrl: 'https://camelcamelcamel.com/product/',
     texts: {
-      title: 'ABELLANLABS™ PRICE CHECKER',
+      title: 'LiaCheck™ PRICE HISTORY CHECKER',
       question: 'Is this the lowest price?',
       button: 'Check Real History',
-      disclaimer: 'AbellanLabs™ is an official Amazon Associate.'
+      disclaimer: 'AbellanLabs™ is an official Amazon Affiliate.'
     }
   };
 }
