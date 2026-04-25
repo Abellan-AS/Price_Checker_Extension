@@ -17,7 +17,7 @@ function obtenerConfiguracion(host) {
   // Configuración por defecto para Amazon.com
   return {
     lang: 'en',
-    tag: 'abellanusa-20', // Tu ID de USA
+    tag: 'abellan27-20', // Tu ID de USA
     camelUrl: 'https://camelcamelcamel.com/product/',
     texts: {
       title: 'ABELLANLABS™ PRICE CHECKER',
