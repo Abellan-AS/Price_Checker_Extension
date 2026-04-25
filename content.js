@@ -6,9 +6,9 @@ function obtenerConfiguracion(host) {
       tag: 'abellan27-21', // Tu ID de España
       camelUrl: 'https://es.camelcamelcamel.com/product/',
       texts: {
-        title: 'LiaCheck™ VERIFICADOR DE HISTORIAL DE PRECIOS',
+        title: 'LiaCheck™ HISTORIAL DE PRECIOS',
         question: '¿Es este su precio más bajo?',
-        button: 'Verificar Historial Real',
+        button: 'Verificar Historial',
         disclaimer: 'AbellanLabs™ es un Afiliado Oficial de Amazon.'
       }
     };
