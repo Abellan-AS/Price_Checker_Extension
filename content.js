@@ -38,7 +38,10 @@ function inyectarPopupGlobal() {
   if (!asin || !precioElem) return;
 
   const config = obtenerConfiguracion(currentHost);
-  const actual = precioElem.innerText.replace('\n', '');
+ // Capturamos el entero y el decimal por separado
+  const entero = document.querySelector('.a-price-whole')?.innerText.replace(/[\n,.]/g, '') || '';
+  const decimal = document.querySelector('.a-price-fraction')?.innerText || '00';
+  const actual = `${entero},${decimal}`;
 
   const aviso = document.createElement('div');
   aviso.id = 'abellan-popup';
